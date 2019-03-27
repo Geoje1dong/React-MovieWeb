@@ -1,3 +1,10 @@
-h1{color:#000;}
-.posterimg{width:600px;}
-.posterimg > img{width:100%;}
+body{background:#edf0f8; font-family: "OpenSans";}
+
+.App{padding:2%;}
+.App:before{clear: both; content:''; display:flex;}
+.posterimg{width:46%; margin:2%; float:left; background:#fff; position:relative; padding:40px 40px 40px 230px; box-sizing: border-box; min-height:300px; border-radius:8px; box-shadow:2px 4px 14px rgba(0,0,0,0.1); line-height: 1.5em; flex:1 1 calc(100% - 50%);}
+.posterimg-item:nth-child(odd) {flex: 0 0 50%;}
+.posterimg > div > h1{line-height:1.2em; color:#3c3950;}
+.posterimg > img{position:absolute; left:23px; top:-23px; width:180px;box-shadow:2px 4px 14px rgba(0,0,0,0.1);}
+.posterimg > div > p{color:#b5b3bd;}
+.posterimg > div > span{color:#FF9800;}
